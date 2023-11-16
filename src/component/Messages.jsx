@@ -21,7 +21,7 @@ function getStatus(message) {
 }
 
 export default function Messages() {
-  const socketUrl = 'wss://xbfvn49yxl.execute-api.sa-east-1.amazonaws.com/prd';
+  const socketUrl = 'wss://0slffnr167.execute-api.sa-east-1.amazonaws.com/prd';
   const [messageHistory, setMessageHistory] = useState([]);
 
   const { sendMessage, lastMessage, readyState } = useWebSocket(socketUrl);
